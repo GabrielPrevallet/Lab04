@@ -140,8 +140,42 @@ public class Animal
 
         // Check that all fields match (color, name, weight, height):
         
-        // TODO: finish this...
+        //       if (otherEq.getName()== this.name)
+        {
+            if (otherAni.getColor()== this.color)
+            {
+                if (otherAni.getName()== this.name)
+                {
+                    if (otherAni.getWeight()== this.weight)
+                    {
+                  	  if (otherAni.getHeight()== this.height)
+                  	  {
+                  		  return true;
+                  	  }
+                        else 
+                        {
+                      	  return false;
+                        }
+                    }
+                    else 
+                    {
+                  	  return false;
+                    }
+                }
+                else 
+                {
+              	  return false;
+                }
+            }
+            else 
+            {
+          	  return false;
+            }
+            
+        }
+  }
+
         
         /* return TODO; */
-    }
 }
+
